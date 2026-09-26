@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Number Adder | Add any two numbers</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+      integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <section class="container">
+      <h1>
+        <i id="plus-header" class="fa-solid fa-square-plus"></i>
+        Number Adder
+      </h1>
+      <p>Enter two numbers below and click the button to add them together.</p>
+
+      <section class="number-field">
+        <input
+          value=""
+          id="btn1"
+          class="num-type"
+          type="number"
+          placeholder="Enter first number"
+        />
+        <i class="fa-solid fa-plus just-plus"></i>
+        <input
+          value=""
+          id="btn2"
+          class="num-type"
+          type="number"
+          placeholder="Enter second number"
+        />
+      </section>
+
+      <em class="result-value" id="value"></em>
+
+      <button id="result" class="addButton">Add Numbers</button>
+    </section>
+
+    <!-- Linking Js -->
+    <script src="script.js"></script>
+  </body>
+</html>
